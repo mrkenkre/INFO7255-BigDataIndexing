@@ -26,7 +26,7 @@ public class ApplicationExceptionHandler {
         return errorMap;
     }
 
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(MedPlanNotFoundException.class)
     public Map<String, String> handleBussinessException(MedPlanNotFoundException ex){
         Map<String, String> errorMap=new HashMap<>();

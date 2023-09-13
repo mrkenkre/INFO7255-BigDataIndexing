@@ -1,16 +1,18 @@
 package com.restapi.service;
 
-import com.restapi.model.MedPlans;
 import com.restapi.validation.exceptions.MedPlanNotFoundException;
+import org.json.JSONObject;
 
-import java.util.List;
+import java.util.Map;
 
 public interface MedPlanService {
-    boolean saveMedPlan(String medPlans);
+    String saveMedPlan(String key, JSONObject plans);
 
     String fetchAllMedPlans();
 
-    String fetchMedPlanById(String id) throws MedPlanNotFoundException;
+    Map<String, Object> fetchMedPlanById(String id) throws MedPlanNotFoundException;
 
-    boolean deleteMedPlan(String id);
+    boolean deleteMedPlan(String id) throws MedPlanNotFoundException;
+    boolean saveETag(String id, String etag);
+    String fetchETag(String id);
 }
