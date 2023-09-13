@@ -15,7 +15,7 @@ In this project, we will develop a REST API to parse a JSON schema model divided
   - Adding Elasticsearch capabilities.
   - Using RabbitMQ for REST API queuing.
 
-![ArchitectureDiagram_page-0001](https://github.com/mrkenkre/INFO7255-BigDataIndexing/assets/44857610/104c82fc-5679-476f-8110-c7bf763d6ffa)
+![ArchitectureDiagram_page-0001](https://github.com/mrkenkre/INFO7255-BigDataIndexing/assets/44857610/c9f8ae6e-7803-4e84-aa31-2e36fef4a29d)
 
 # Pre-requisites
 
