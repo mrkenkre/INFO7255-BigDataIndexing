@@ -13,7 +13,7 @@ In this project, we will develop a REST API to parse a JSON schema model divided
 
 **Prototype demo 3**:
   - Adding Elasticsearch capabilities.
-  - Using RedisMQ for REST API queuing.
+  - Using RabbitMQ for REST API queuing.
 
 ![ArchitectureDiagram_page-0001](https://github.com/mrkenkre/INFO7255-BigDataIndexing/assets/44857610/104c82fc-5679-476f-8110-c7bf763d6ffa)
 
@@ -25,12 +25,16 @@ Make sure you have the following prerequisites installed:
 - Maven
 - Redis Server
 - Elasticsearch and Kibana (Local or cloud-based)
+- RabbitMQ
 
 # Build and Run
 
 Follow these steps to build and run the project:
 
-1. Run as Spring Boot Application in any IDE.
+1. Start RabbitMQ
+2. Start Elasticsearch
+3. Start Redis
+4. Run as Spring Boot Application in any IDE.
 
 # Querying Elasticsearch
 
