@@ -9,7 +9,7 @@ In this project, we will develop a REST API to parse a JSON schema model divided
 
 **Prototype demo 2**:
   - Regress on your model and perform additional operations like PUT and PATCH.
-  - Secure the REST API with a security protocol like JWT or OAuth2.
+  - Secure the REST API with a security protocol like OAuth2.
 
 **Prototype demo 3**:
   - Adding Elasticsearch capabilities.
